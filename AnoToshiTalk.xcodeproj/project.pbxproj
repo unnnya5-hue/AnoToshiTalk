@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19BA96579C2FA08062F71B74 /* TopicSelectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8DCCD0DE7C4165BD1A7CEA /* TopicSelectionService.swift */; };
+		1C9BDFF96A3F3F07C7784918 /* TopicSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA794CF48E7320E0171CE5 /* TopicSessionView.swift */; };
+		25A09CBE770C53285399EDCF /* BundledContentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158B293695DCDD5CC218C410 /* BundledContentTests.swift */; };
+		33098D5BDDCA1592A6116BA8 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9FB0FDB417D69F48A08FECA2 /* PrivacyInfo.xcprivacy */; };
+		3BB2D3F6075F139A5B4298C6 /* BundledTopicRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA1125C338E431C45D4CBA1 /* BundledTopicRepository.swift */; };
+		51D1AB9F5752E201E6F4A00C /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 78B6FDE87410536847062EEE /* GoogleMobileAds */; };
+		59A0F8B2ED466F958B9E27C0 /* topics-v1.json in Resources */ = {isa = PBXBuildFile; fileRef = B3A4D79C60C3B49E6782C282 /* topics-v1.json */; };
+		5A46568E6FF19A4787C7B8E4 /* TopicSelectionServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A14F401EE59CD22FD76611 /* TopicSelectionServiceTests.swift */; };
+		5AD19B004AC22D5552FE9E0A /* EraSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D063BC43FCBEBC05CFB53D2A /* EraSetupView.swift */; };
+		5DB0E7532E0E77917DD8677F /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2AC885549F891CCFB99D16 /* FavoritesView.swift */; };
+		5DF9825427682A72793CF32C /* GoogleMobileAdsAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9108B8741A5722E5F18A522F /* GoogleMobileAdsAdapter.swift */; };
+		62903EAAEE3A9137FA5669D0 /* AnoToshiTalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700EDC39A9FE0AFE741C6D47 /* AnoToshiTalkApp.swift */; };
+		658C0B09DD2FE2093EAEE91D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7302B845C20E7299C591B48 /* HomeView.swift */; };
+		72D7C1CF085920F0E3806DA0 /* FavoriteRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0E61AC7B9C70D832D58302 /* FavoriteRecord.swift */; };
+		7C42A40E18D5CA4A6868E18E /* TopicExternalLinkResolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1F86FA8D6A723A5794807 /* TopicExternalLinkResolverTests.swift */; };
+		7D9C27A28041F53FD07892DF /* AdMobBootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3068BBA4C152FD53C76CB3E /* AdMobBootstrap.swift */; };
+		837B74BEA8A07C6C166D8A0A /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E6E67AED1589F59F2D794 /* AdBannerView.swift */; };
+		8532307C2DDDD8FF1FE34761 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E6B079F0656A70F0106041 /* AppModel.swift */; };
+		93FAEEA9936767070A3B1766 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8574D23AA63DAB2280A0B3 /* SettingsView.swift */; };
+		9E75B8F7A30E49F90863DFAF /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34E7234E663BADD51729354 /* Models.swift */; };
+		A4751878641D0AE101DBD2FC /* AgeRangeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48FCF937492ED1346D3F242 /* AgeRangeCalculatorTests.swift */; };
+		A68E4D686CCEF7A9ABEEABE3 /* ConnectivityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CDD6665665315B5A5146EB /* ConnectivityMonitor.swift */; };
+		AB997B5CD6C324A736A0F893 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4553707A2D209F9B2123D0 /* OnboardingView.swift */; };
+		B44AF4B9D8A8984CE9A4C8DF /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = C690BB3664299F9A9C5839D3 /* Components.swift */; };
+		B7643968C588E8596FF87A53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3141DBE2812570A97B09D15 /* Assets.xcassets */; };
+		BF776AB0FBF8AF9EBC8D2C2E /* TopicExternalLinkResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA2354E348AF7BA009F94E0 /* TopicExternalLinkResolver.swift */; };
+		D42045157F660846701A4731 /* topic-schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A2A47EA325B208C0A01DF9C /* topic-schema.json */; };
+		DF367D6C11140E7923F04D76 /* PlayGateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F5637961FE6717C5FDEAAC /* PlayGateService.swift */; };
+		EECC19642277F30A72242A30 /* AdConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8ED541E955DC5C09D666E0 /* AdConfiguration.swift */; };
+		F9A06EA5A93C353772DD18E8 /* AgeRangeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105D6484B956300B68646546 /* AgeRangeCalculator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74DD8E953D123589DE7FBF9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0098541F34E87A695F313317 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 857DCB4BD94BB03790249F0F;
+			remoteInfo = AnoToshiTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E6B079F0656A70F0106041 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		0C0E61AC7B9C70D832D58302 /* FavoriteRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRecord.swift; sourceTree = "<group>"; };
+		105D6484B956300B68646546 /* AgeRangeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeRangeCalculator.swift; sourceTree = "<group>"; };
+		158B293695DCDD5CC218C410 /* BundledContentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundledContentTests.swift; sourceTree = "<group>"; };
+		1D9C9993FD37990F73F205D2 /* AnoToshiTalkTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = AnoToshiTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8DCCD0DE7C4165BD1A7CEA /* TopicSelectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicSelectionService.swift; sourceTree = "<group>"; };
+		2D8574D23AA63DAB2280A0B3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3BB1F86FA8D6A723A5794807 /* TopicExternalLinkResolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicExternalLinkResolverTests.swift; sourceTree = "<group>"; };
+		4A2A47EA325B208C0A01DF9C /* topic-schema.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "topic-schema.json"; sourceTree = "<group>"; };
+		5FA1125C338E431C45D4CBA1 /* BundledTopicRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundledTopicRepository.swift; sourceTree = "<group>"; };
+		6DEA794CF48E7320E0171CE5 /* TopicSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicSessionView.swift; sourceTree = "<group>"; };
+		700EDC39A9FE0AFE741C6D47 /* AnoToshiTalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnoToshiTalkApp.swift; sourceTree = "<group>"; };
+		7CA2354E348AF7BA009F94E0 /* TopicExternalLinkResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicExternalLinkResolver.swift; sourceTree = "<group>"; };
+		7D2AC885549F891CCFB99D16 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		9108B8741A5722E5F18A522F /* GoogleMobileAdsAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMobileAdsAdapter.swift; sourceTree = "<group>"; };
+		94F5637961FE6717C5FDEAAC /* PlayGateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGateService.swift; sourceTree = "<group>"; };
+		9FB0FDB417D69F48A08FECA2 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B3A4D79C60C3B49E6782C282 /* topics-v1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "topics-v1.json"; sourceTree = "<group>"; };
+		B4640504517E795AA02EF084 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		C1A659F38A62987B3CB5E489 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		C690BB3664299F9A9C5839D3 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		D063BC43FCBEBC05CFB53D2A /* EraSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EraSetupView.swift; sourceTree = "<group>"; };
+		D4CDD6665665315B5A5146EB /* ConnectivityMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityMonitor.swift; sourceTree = "<group>"; };
+		E3141DBE2812570A97B09D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3A14F401EE59CD22FD76611 /* TopicSelectionServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicSelectionServiceTests.swift; sourceTree = "<group>"; };
+		E48FCF937492ED1346D3F242 /* AgeRangeCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeRangeCalculatorTests.swift; sourceTree = "<group>"; };
+		EC8ED541E955DC5C09D666E0 /* AdConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdConfiguration.swift; sourceTree = "<group>"; };
+		F3068BBA4C152FD53C76CB3E /* AdMobBootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobBootstrap.swift; sourceTree = "<group>"; };
+		F34E7234E663BADD51729354 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F69E6E67AED1589F59F2D794 /* AdBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBannerView.swift; sourceTree = "<group>"; };
+		F7302B845C20E7299C591B48 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FC4D914353CB239980D98428 /* AnoToshiTalk.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = AnoToshiTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4553707A2D209F9B2123D0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E14D24A7C4E9EC766C9FD991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D1AB9F5752E201E6F4A00C /* GoogleMobileAds in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C391B146B0E9096112FDE16 /* AnoToshiTalk */ = {
+			isa = PBXGroup;
+			children = (
+				783268E9BD5D10ED826A84C6 /* App */,
+				906515A4F90BCAE36FB18698 /* Data */,
+				DEB0247D6F654316344B7542 /* DesignSystem */,
+				8126EC4C711B64412981A038 /* Domain */,
+				4FD9FBEC6ECC843234B399DB /* Features */,
+				3898BB2AC8416F1CFDE56312 /* Infrastructure */,
+				8EECFB46768FBE77DA160200 /* Resources */,
+			);
+			path = AnoToshiTalk;
+			sourceTree = "<group>";
+		};
+		1E85801687EAA33A46361BDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC4D914353CB239980D98428 /* AnoToshiTalk.app */,
+				1D9C9993FD37990F73F205D2 /* AnoToshiTalkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3898BB2AC8416F1CFDE56312 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				B9D6BCB9261EC685E8EB77D4 /* Ads */,
+				FE31B45E411EF8080E4B0855 /* Network */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		3EFCDE10355A0C5812735B85 = {
+			isa = PBXGroup;
+			children = (
+				1C391B146B0E9096112FDE16 /* AnoToshiTalk */,
+				F18446FD70EC90BB24ADC3CC /* AnoToshiTalkTests */,
+				FAE6F071C0FAD8FEB6CAC1CB /* Config */,
+				1E85801687EAA33A46361BDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4349FC4A75B77247DFCACC5B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F7302B845C20E7299C591B48 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4FD9FBEC6ECC843234B399DB /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				97D80600EF9CDAE98D2F16E1 /* EraSetup */,
+				D0CAF8AE772D61C61C3FE467 /* Favorites */,
+				4349FC4A75B77247DFCACC5B /* Home */,
+				ACBF1448B92C8E538427B890 /* Onboarding */,
+				685E67E662F1D378AC357469 /* Settings */,
+				81C21551CE1BA706D6F3FECC /* TopicSession */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		651E038DE2AD3DD23654E78B /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				4A2A47EA325B208C0A01DF9C /* topic-schema.json */,
+				B3A4D79C60C3B49E6782C282 /* topics-v1.json */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		685E67E662F1D378AC357469 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2D8574D23AA63DAB2280A0B3 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6D9777323D9FDD773BEF35F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F34E7234E663BADD51729354 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		783268E9BD5D10ED826A84C6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				700EDC39A9FE0AFE741C6D47 /* AnoToshiTalkApp.swift */,
+				01E6B079F0656A70F0106041 /* AppModel.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8126EC4C711B64412981A038 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				6D9777323D9FDD773BEF35F5 /* Models */,
+				9E56F8717DF4AE5D42927982 /* Services */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		81C21551CE1BA706D6F3FECC /* TopicSession */ = {
+			isa = PBXGroup;
+			children = (
+				6DEA794CF48E7320E0171CE5 /* TopicSessionView.swift */,
+			);
+			path = TopicSession;
+			sourceTree = "<group>";
+		};
+		8EECFB46768FBE77DA160200 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E3141DBE2812570A97B09D15 /* Assets.xcassets */,
+				9FB0FDB417D69F48A08FECA2 /* PrivacyInfo.xcprivacy */,
+				651E038DE2AD3DD23654E78B /* Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		906515A4F90BCAE36FB18698 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F325E429D1005DB371023648 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		97D80600EF9CDAE98D2F16E1 /* EraSetup */ = {
+			isa = PBXGroup;
+			children = (
+				D063BC43FCBEBC05CFB53D2A /* EraSetupView.swift */,
+			);
+			path = EraSetup;
+			sourceTree = "<group>";
+		};
+		9E56F8717DF4AE5D42927982 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				105D6484B956300B68646546 /* AgeRangeCalculator.swift */,
+				94F5637961FE6717C5FDEAAC /* PlayGateService.swift */,
+				7CA2354E348AF7BA009F94E0 /* TopicExternalLinkResolver.swift */,
+				1F8DCCD0DE7C4165BD1A7CEA /* TopicSelectionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ACBF1448B92C8E538427B890 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FD4553707A2D209F9B2123D0 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		B9D6BCB9261EC685E8EB77D4 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				F69E6E67AED1589F59F2D794 /* AdBannerView.swift */,
+				EC8ED541E955DC5C09D666E0 /* AdConfiguration.swift */,
+				F3068BBA4C152FD53C76CB3E /* AdMobBootstrap.swift */,
+				9108B8741A5722E5F18A522F /* GoogleMobileAdsAdapter.swift */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		D0CAF8AE772D61C61C3FE467 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				7D2AC885549F891CCFB99D16 /* FavoritesView.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		DEB0247D6F654316344B7542 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				C690BB3664299F9A9C5839D3 /* Components.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		F18446FD70EC90BB24ADC3CC /* AnoToshiTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				E48FCF937492ED1346D3F242 /* AgeRangeCalculatorTests.swift */,
+				158B293695DCDD5CC218C410 /* BundledContentTests.swift */,
+				3BB1F86FA8D6A723A5794807 /* TopicExternalLinkResolverTests.swift */,
+				E3A14F401EE59CD22FD76611 /* TopicSelectionServiceTests.swift */,
+			);
+			path = AnoToshiTalkTests;
+			sourceTree = "<group>";
+		};
+		F325E429D1005DB371023648 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				5FA1125C338E431C45D4CBA1 /* BundledTopicRepository.swift */,
+				0C0E61AC7B9C70D832D58302 /* FavoriteRecord.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		FAE6F071C0FAD8FEB6CAC1CB /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				B4640504517E795AA02EF084 /* Debug.xcconfig */,
+				C1A659F38A62987B3CB5E489 /* Release.xcconfig */,
+			);
+			name = Config;
+			path = AnoToshiTalk/Config;
+			sourceTree = "<group>";
+		};
+		FE31B45E411EF8080E4B0855 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D4CDD6665665315B5A5146EB /* ConnectivityMonitor.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		804F83BCF953BF7500C3DDD9 /* AnoToshiTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3AB7F7A411A312CC3CAA85E /* Build configuration list for PBXNativeTarget "AnoToshiTalkTests" */;
+			buildPhases = (
+				93B9A25D848906C8A53D5E99 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09AF21B8A76998CA2DDE9224 /* PBXTargetDependency */,
+			);
+			name = AnoToshiTalkTests;
+			packageProductDependencies = (
+			);
+			productName = AnoToshiTalkTests;
+			productReference = 1D9C9993FD37990F73F205D2 /* AnoToshiTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		857DCB4BD94BB03790249F0F /* AnoToshiTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D30E5625F77B0FAFF23E05DC /* Build configuration list for PBXNativeTarget "AnoToshiTalk" */;
+			buildPhases = (
+				F01FF1294D60E5623DB04EED /* Sources */,
+				2ED848F7369030CA0DB150A7 /* Resources */,
+				E14D24A7C4E9EC766C9FD991 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnoToshiTalk;
+			packageProductDependencies = (
+				78B6FDE87410536847062EEE /* GoogleMobileAds */,
+			);
+			productName = AnoToshiTalk;
+			productReference = FC4D914353CB239980D98428 /* AnoToshiTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0098541F34E87A695F313317 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					804F83BCF953BF7500C3DDD9 = {
+						DevelopmentTeam = 7CQQG9K8BA;
+					};
+					857DCB4BD94BB03790249F0F = {
+						DevelopmentTeam = 7CQQG9K8BA;
+					};
+				};
+			};
+			buildConfigurationList = F10ED2BB6EDC2AB5337C3D85 /* Build configuration list for PBXProject "AnoToshiTalk" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 3EFCDE10355A0C5812735B85;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D43830024C45D5CD739805FB /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1E85801687EAA33A46361BDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				857DCB4BD94BB03790249F0F /* AnoToshiTalk */,
+				804F83BCF953BF7500C3DDD9 /* AnoToshiTalkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ED848F7369030CA0DB150A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7643968C588E8596FF87A53 /* Assets.xcassets in Resources */,
+				33098D5BDDCA1592A6116BA8 /* PrivacyInfo.xcprivacy in Resources */,
+				D42045157F660846701A4731 /* topic-schema.json in Resources */,
+				59A0F8B2ED466F958B9E27C0 /* topics-v1.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93B9A25D848906C8A53D5E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4751878641D0AE101DBD2FC /* AgeRangeCalculatorTests.swift in Sources */,
+				25A09CBE770C53285399EDCF /* BundledContentTests.swift in Sources */,
+				7C42A40E18D5CA4A6868E18E /* TopicExternalLinkResolverTests.swift in Sources */,
+				5A46568E6FF19A4787C7B8E4 /* TopicSelectionServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01FF1294D60E5623DB04EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837B74BEA8A07C6C166D8A0A /* AdBannerView.swift in Sources */,
+				EECC19642277F30A72242A30 /* AdConfiguration.swift in Sources */,
+				7D9C27A28041F53FD07892DF /* AdMobBootstrap.swift in Sources */,
+				F9A06EA5A93C353772DD18E8 /* AgeRangeCalculator.swift in Sources */,
+				62903EAAEE3A9137FA5669D0 /* AnoToshiTalkApp.swift in Sources */,
+				8532307C2DDDD8FF1FE34761 /* AppModel.swift in Sources */,
+				3BB2D3F6075F139A5B4298C6 /* BundledTopicRepository.swift in Sources */,
+				B44AF4B9D8A8984CE9A4C8DF /* Components.swift in Sources */,
+				A68E4D686CCEF7A9ABEEABE3 /* ConnectivityMonitor.swift in Sources */,
+				5AD19B004AC22D5552FE9E0A /* EraSetupView.swift in Sources */,
+				72D7C1CF085920F0E3806DA0 /* FavoriteRecord.swift in Sources */,
+				5DB0E7532E0E77917DD8677F /* FavoritesView.swift in Sources */,
+				5DF9825427682A72793CF32C /* GoogleMobileAdsAdapter.swift in Sources */,
+				658C0B09DD2FE2093EAEE91D /* HomeView.swift in Sources */,
+				9E75B8F7A30E49F90863DFAF /* Models.swift in Sources */,
+				AB997B5CD6C324A736A0F893 /* OnboardingView.swift in Sources */,
+				DF367D6C11140E7923F04D76 /* PlayGateService.swift in Sources */,
+				93FAEEA9936767070A3B1766 /* SettingsView.swift in Sources */,
+				BF776AB0FBF8AF9EBC8D2C2E /* TopicExternalLinkResolver.swift in Sources */,
+				19BA96579C2FA08062F71B74 /* TopicSelectionService.swift in Sources */,
+				1C9BDFF96A3F3F07C7784918 /* TopicSessionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09AF21B8A76998CA2DDE9224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 857DCB4BD94BB03790249F0F /* AnoToshiTalk */;
+			targetProxy = 74DD8E953D123589DE7FBF9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CB3413369B193440D8A48CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7CQQG9K8BA;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		1EDC06A43E664776E48C9B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.enjoyera.anotoshitalk.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnoToshiTalk.app/AnoToshiTalk";
+			};
+			name = Release;
+		};
+		5BAACDBEDB28D174D2BE6521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4640504517E795AA02EF084 /* Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AnoToshiTalk/Config/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.enjoyera.anotoshitalk;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5EA1C43156F74DEF5DB9EDAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A659F38A62987B3CB5E489 /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AnoToshiTalk/Config/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.enjoyera.anotoshitalk;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5EEC2B674E0AF324555F6B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7CQQG9K8BA;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		AD58BC8462D4BA0B079A38AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.enjoyera.anotoshitalk.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnoToshiTalk.app/AnoToshiTalk";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3AB7F7A411A312CC3CAA85E /* Build configuration list for PBXNativeTarget "AnoToshiTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD58BC8462D4BA0B079A38AF /* Debug */,
+				1EDC06A43E664776E48C9B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D30E5625F77B0FAFF23E05DC /* Build configuration list for PBXNativeTarget "AnoToshiTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BAACDBEDB28D174D2BE6521 /* Debug */,
+				5EA1C43156F74DEF5DB9EDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F10ED2BB6EDC2AB5337C3D85 /* Build configuration list for PBXProject "AnoToshiTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CB3413369B193440D8A48CE /* Debug */,
+				5EEC2B674E0AF324555F6B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D43830024C45D5CD739805FB /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		78B6FDE87410536847062EEE /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D43830024C45D5CD739805FB /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0098541F34E87A695F313317 /* Project object */;
+}

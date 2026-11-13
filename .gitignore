@@ -1,0 +1,22 @@
+# Xcode
+DerivedData/
+build/
+*.xcarchive
+*.ipa
+*.dSYM
+*.dSYM.zip
+**/xcuserdata/
+*.xcuserstate
+
+# Generated release artifacts and local working files
+artifacts/
+outputs/
+docs/
+DEMO.md
+.DS_Store
+
+# Local tooling
+.env
+.env.*
+!.env.example
+

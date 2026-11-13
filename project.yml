@@ -1,0 +1,52 @@
+name: AnoToshiTalk
+options:
+  bundleIdPrefix: jp.enjoyera
+  deploymentTarget:
+    iOS: "18.0"
+  xcodeVersion: "26.0"
+packages:
+  GoogleMobileAds:
+    url: https://github.com/googleads/swift-package-manager-google-mobile-ads.git
+    from: 13.12.0
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    CURRENT_PROJECT_VERSION: 1
+    MARKETING_VERSION: 0.1.0
+    DEVELOPMENT_TEAM: 7CQQG9K8BA
+    ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+targets:
+  AnoToshiTalk:
+    type: application
+    platform: iOS
+    sources:
+      - path: AnoToshiTalk
+        excludes:
+          - Config
+    configFiles:
+      Debug: AnoToshiTalk/Config/Debug.xcconfig
+      Release: AnoToshiTalk/Config/Release.xcconfig
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: jp.enjoyera.anotoshitalk
+        TARGETED_DEVICE_FAMILY: 1
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: AnoToshiTalk/Config/Info.plist
+    dependencies:
+      - package: GoogleMobileAds
+        product: GoogleMobileAds
+    scheme:
+      testTargets:
+        - AnoToshiTalkTests
+  AnoToshiTalkTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: AnoToshiTalkTests
+    dependencies:
+      - target: AnoToshiTalk
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: jp.enjoyera.anotoshitalk.tests
+
